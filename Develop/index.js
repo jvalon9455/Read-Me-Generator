@@ -3,6 +3,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+const questions = [];
 
 inquirer
     .prompt([
@@ -25,7 +26,7 @@ inquirer
 
         {
             type: "input",
-            message: "What is the usage of your project?",
+            message: "What is the usage criteria for your project?",
             name: "usage",
         },
         
@@ -57,11 +58,19 @@ inquirer
             name: "email",
         },
     ])
+    .then((answers) => {
+        console.log(answers);
+        var readMe = generateMarkdown (answers);
+        fs.writeFile("generate.md", readMe, err => {
+            if(err) throw err;
+            console.log("ReadMe works");
+        })
+    })
  
     
-// function to write README file
-function writeToFile(fileName, data) {
-}
+// // function to write README file
+// function writeToFile(fileName, data) {
+// }
 
 // function to initialize program
 function init() {
