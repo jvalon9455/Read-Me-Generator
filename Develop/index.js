@@ -21,7 +21,7 @@ inquirer
         
         {
             type: "input",
-            message: "How do you install your project?",
+            message: "How do you install your project? Please list out the steps using commas.",
             name: "installation",
         },
 
@@ -33,8 +33,8 @@ inquirer
         
         {
             type: "input",
-            message: "Who or what helped contribute to your project?",
-            name: "contributors"
+            message: "How can others help contribute to your project?",
+            name: "contributions"
         },
 
         {
