@@ -5,6 +5,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 const questions = [];
 
+// create prompt questions for user input
 inquirer
     .prompt([
         {
@@ -20,7 +21,7 @@ inquirer
         
         {
             type: "input",
-            message: "What are the steps to install your project?",
+            message: "How do you install your project?",
             name: "installation",
         },
 
@@ -38,12 +39,12 @@ inquirer
 
         {
             type: "input",
-            message: "How has your project been tested?",
+            message: "How do you test your project?",
             name: "test",
         },
         {
             type: "list",
-            choices: ["MIT", "GNU", "APM"],
+            choices: ["MIT", "Apache", "Mozilla"],
             name: "license",
         },
         {
