@@ -1,31 +1,36 @@
-# Read Me Generator
+# sdfs
 
    ## Description
-  This project shows how to dynamically create a ReadMe
+  sdfsd
   
   # Table of Contents
   [Description](#description)
+
   [Installation](#installation)
+
   [Usage](#usage)
+
   [Contributors](#contributors)
+
   [Test](#test) 
+
   
   ## Installation
-  You can install it by doing something
+  sdfsd
 
   ## Usage
-  Just answer the questions and let the generator do its magic
+  sdfsdf
 
   ## License
-  Apache
+  MIT
 
   ## Contributors
-  Classmates and previous class videos 
+  undefined
 
   ## Tests
-  You're doing it
+  sdfsdf
   
   ## Questions
-  You can find recent repos at jimmy
-  If you have any questions contact me at jimmy.com
+  You can find recent repos at sdf
+  If you have any questions contact me at sdf
 

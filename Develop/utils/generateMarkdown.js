@@ -8,11 +8,11 @@ function generateMarkdown(data) {
   ${data.description}
   
   # Table of Contents
-  [Description](#description)
-  [Installation](#installation)
-  [Usage](#usage)
-  [Contributors](#contributors)
-  [Test](#test) 
+  [Description](#description)\n
+  [Installation](#installation)\n
+  [Usage](#usage)\n
+  [Contributors](#contributors)\n
+  [Test](#test) \n
   
   ## Installation
   ${data.installation}
