@@ -9,18 +9,18 @@ inquirer
     .prompt([
         {
             type: "input",
-            message: "What is the title of the project?",
+            message: "What is the title of your project?",
             name: "title"
         },
         {
             type: "input",
-            message: "Write a description of your project?",
+            message: "Please write a brief description of your project?",
             name: "description"
         },
         
         {
             type: "input",
-            message: "How do you install your project?",
+            message: "What are the steps to install your project?",
             name: "installation",
         },
 
@@ -32,7 +32,7 @@ inquirer
         
         {
             type: "input",
-            message: "Who contributed to your project?",
+            message: "Who or what helped contribute to your project?",
             name: "contributors"
         },
 
