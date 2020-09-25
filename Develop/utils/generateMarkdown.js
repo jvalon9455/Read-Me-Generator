@@ -40,18 +40,6 @@ function generateMarkdown(data) {
 `;
 }
 
-// make a function to grab users choice of license/badge
-// function badges (userInput) {
-//   if (userInput.license == "MIT") {
-//     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
-//   } else if (userInput.license == "Apache") {
-//     return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
-//   }else if (userInput.license == "Mozilla") {
-//     return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
-//   } else {
-//     console.log("Unknown License");
-//   }
-// }
 
 
 module.exports = generateMarkdown;
