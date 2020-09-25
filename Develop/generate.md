@@ -18,13 +18,15 @@
 
   
   ## Installation
-  as
+  asas
 
   ## Usage
   as
 
   ## License
   This project is licensed by, MIT
+
+  ![](https://img.shields.io/static/v1?label=MIT&message=GT-FT&color=critical)
   
 
   ## Contributions

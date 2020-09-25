@@ -23,11 +23,12 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  This project is licensed by, ${data.badges}
+  This project is licensed by ${data.badges}\n
+  ![](https://img.shields.io/static/v1?label=${data.badges}&message=GT-FT&color=critical)
   
 
   ## Contributions
-  ${data.contributions}
+  ${data.contributions}\n
   If you would like to help contribute to this project, please reach out to me at (https://github.com/${data.username}).
 
   ## Tests
