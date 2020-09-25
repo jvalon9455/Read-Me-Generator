@@ -3,11 +3,11 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-const questions = [];
 
 // create prompt questions for user input
-inquirer
-    .prompt([
+
+     inquirer
+     .prompt ([
         {
             type: "input",
             message: "What is the title of your project?",
@@ -33,7 +33,7 @@ inquirer
         
         {
             type: "input",
-            message: "How can others help contribute to your project?",
+            message: "Who helped contribute to your project?",
             name: "contributions"
         },
 
@@ -45,7 +45,7 @@ inquirer
         {
             type: "list",
             choices: ["MIT", "Apache", "Mozilla"],
-            name: "license",
+            name: "badges",
         },
         {
             type: "input",
@@ -75,6 +75,7 @@ inquirer
 
 // function to initialize program
 function init() {
+ 
 
 }
 
