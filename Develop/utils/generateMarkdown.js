@@ -3,7 +3,7 @@
 
 function generateMarkdown(data) {
   return `# ${data.title}
-  ![](https://img.shields.io/static/v1?label=${data.badges}&message=${data.username}&color=critical)
+  ![](https://img.shields.io/static/v1?label=${data.badges}&message=GT-FT&color=critical)
 
 
    ## Description

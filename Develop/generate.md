@@ -1,5 +1,5 @@
 # as
-  ![](https://img.shields.io/static/v1?label=Apache&message=as&color=critical)
+  ![](https://img.shields.io/static/v1?label=MIT&message=GT-FT&color=critical)
 
 
    ## Description
@@ -24,7 +24,7 @@
   as
 
   ## License
-  This project is licensed by, Apache
+  This project is licensed by, MIT
   
 
   ## Contributions
